@@ -48,7 +48,7 @@ function Register() {
         </form>
       </div>
       <div className="imgContainer">
-        <img src="/bg.png" alt="" />
+        <img src="/bg-img.png" alt="" />
       </div>
     </div>
   );
