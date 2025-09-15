@@ -1,5 +1,5 @@
 import "./singlePage.scss";
-import Slider from "../../components/slider/Slider";
+// import Slider from "../../components/slider/Slider";
 
 // import { singlePostData } from "../../lib/dummydata";
 import Map from "../../components/map/Map";
@@ -35,7 +35,7 @@ function SinglePage() {
     <div className="singlePage">
       <div className="details">
         <div className="wrapper">
-          <Slider images={post.images} />
+          {/* <Slider images={post.images} /> */}
           <div className="info">
             <div className="top">
               <div className="post">
