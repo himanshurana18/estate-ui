@@ -26,7 +26,7 @@ function Navbar() {
           <span>HomeVista</span>
         </a>
         <a href="/">Home</a>
-        <a href="/">About</a>
+        <a href="/list">List</a>
         <a href="/">Contact</a>
         <a href="/">Agents</a>
       </div>

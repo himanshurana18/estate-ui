@@ -9,6 +9,7 @@ import { useContext, useState } from "react";
 import { AuthContext } from "../../context/AuthContext";
 import apiRequest from "../../lib/apiRequest";
 import { useNavigate } from "react-router-dom";
+import Slider from "../../components/slider/Slider";
 
 function SinglePage() {
   const post = useLoaderData();
@@ -35,7 +36,7 @@ function SinglePage() {
     <div className="singlePage">
       <div className="details">
         <div className="wrapper">
-          {/* <Slider images={post.images} /> */}
+          <Slider images={post.images} />
           <div className="info">
             <div className="top">
               <div className="post">
