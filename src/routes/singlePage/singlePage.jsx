@@ -8,7 +8,7 @@ import { useContext, useState } from "react";
 import { AuthContext } from "../../context/AuthContext";
 import apiRequest from "../../lib/apiRequest";
 import { useNavigate } from "react-router-dom";
-import { Slider } from "@/components/slider/Slider";
+import { Slider } from "../../components/slider/Slider.jsx";
 
 function SinglePage() {
   const post = useLoaderData();
